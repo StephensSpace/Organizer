@@ -1,0 +1,344 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(60,77,84, 0.9);
+    background-image: url(./assets/img/skyscape.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: -webkit-fill-available;
+}
+
+header {
+    display: flex;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    color: rgb(227 100 22 / 88%);
+}
+
+button {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: unset;
+    border: unset;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1px;
+    width: fit-content;
+    border: 1px, outset, white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    margin-block-end: 22px;
+    margin-block-start: 6px;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(227 100 22 / 88%);
+}
+
+.display-hide {
+    display: none;
+}
+
+#AddForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.AddBezeichnung {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-inline-end: 8px;
+    background-color: lavender;
+    font-size: 18px;
+}
+
+.AddInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: lavender;
+    width: 200px;
+}
+
+#speichern {
+    display: flex;
+    justify-content: center;
+}
+
+#InputArea {
+    display: flex;
+    flex-direction: row;
+}
+    
+td {
+    border: 2px solid;
+    border-color: #ecdddd;
+    width: fit-content;
+    font-size: 18px;
+    text-wrap: wrap;
+}
+
+table {
+    margin-bottom: 8px;
+    border-spacing: unset;
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.tablehead {
+    font-weight: bold;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.Zurückbtn {
+    margin-top: 18px;
+    width: fit-content;
+    text-align: center;
+}
+
+#TableRow {
+    text-align: center;
+    background-color: rgba(207, 207, 207, 0.808);
+}
+
+#TableRow2 {
+    text-align: center;
+
+}
+
+.btnmargin18px {
+    margin-bottom: 18px;
+}
+
+#Note {
+    width: 220px;
+    height: 100px;
+}
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ContentArea {
+    display: flex;
+    width: -webkit-fill-available;
+}
+
+.NoteDesign {
+    background-image: url("./assets/img/post-it.png");
+    width: 214px;
+    height: fit-content;
+    margin: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 16px;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Playwrite AT", cursive;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;
+}
+
+.ShowCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    border-style: outset;
+    border-color: white;
+    border-width: 2px;
+}
+
+#notes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#NoteHead {
+    width: 220px;
+    margin-bottom: 4px;
+}
+
+h3 {
+    font-size: 1.1em;
+    margin-block-start: unset;
+    margin-block-end: 1.8px;
+}
+
+p {
+    margin-block-start: unset;
+    margin-block-end: 0px;
+}
+
+.trashHide {
+    display: none;
+}
+
+.Notebtn {
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+#delTrash #delContTrash {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.navButton {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.navButtonImg {
+    height: 50px;
+}
+
+.trashBean {
+    height: 28px;
+}
+
+.shContentTrash {
+    display: flex;
+}
+
+.trashbin {
+    height: 28px;
+}
+
+.trashbinNote {
+    height: 28px;
+}
+
+#deleteNote:hover {
+    cursor: pointer;
+    background-color: rgba(216, 235, 111, 0.726);
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px rgba(226, 213, 99, 0.719);
+}
+
+#deleteNote {
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    margin-left: auto;
+    margin-bottom: 6px;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(190, 210, 214, 0.726);
+    border: 1px solid;
+    border-color: #ecdddd;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px rgba(217, 151, 117, 0.719);
+}
+
+#deleteColumn {
+    border: unset;
+    background-color: unset;
+}
+
+#deleteColumn:hover {
+    background-color: rgba(190, 210, 214, 0.726);
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px rgba(217, 151, 117, 0.719);    
+}
+
+.backArrow {
+    height: 28px;
+}
+
+.contactBtn {
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+
+    @media (max-width: 1480px) {
+
+        td {
+        font-size: 14px;
+        }
+
+    }
+
+    @media (max-width: 1280px) {
+
+        td {
+            font-size: 14px;
+        }
+    
+        #ContentArea {
+            flex-direction: column;
+        }
+
+        .ShowCont {
+            width: -webkit-fill-available;
+        }
+
+
+    }
+
+    @media (max-width: 700px) {
+
+        .trashbin {
+            height: 16px;
+        }
+
+        td {
+            font-size: 12px;
+        }
+        body {
+            background-repeat: repeat-y;
+        }
+
+        .NoteDesign {
+            font-size: 14px;
+        }
+
+    }
